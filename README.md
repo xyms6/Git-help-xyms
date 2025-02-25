@@ -1,7 +1,7 @@
 | Comando Git | Xyms :) |
 |------------|------------|
-| `git clone https://github.com/xyms/Pokedex-xyms.git` | 📥 Copia o repositório do GitHub para sua máquina local. |
-| `cd Pokedex-xyms` | 📂 Acessa a pasta do projeto após cloná-lo. |
+| `git clone` | 📥 Copia o repositório do GitHub para sua máquina local. |
+| `cd nome-repositorio` | 📂 Acessa a pasta do projeto após cloná-lo. |
 | `git init` | 🏁 Inicializa um novo repositório Git na pasta atual. |
 | `git add .` | ➕ Adiciona todas as mudanças feitas ao repositório local. |
 | `git commit -m "Mensagem do commit"` | 💾 Salva as mudanças localmente com uma mensagem descritiva. |

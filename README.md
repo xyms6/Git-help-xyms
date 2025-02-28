@@ -2,7 +2,6 @@
 | Comando Git | Xyms :) |
 
 ## 🔹 **Trabalhando com Repositórios**
-|-------------|---------|
 | `git clone` | 📥 Copia o repositório do GitHub para sua máquina local. |
 | `git init` | 🏁 Inicializa um novo repositório Git na pasta atual. |
 | `git remote add origin <URL>` | 🔗 Conecta seu repositório local a um repositório remoto. |
@@ -12,7 +11,6 @@
 ---
 
 ## 🔹 **Trabalhando com Branches**
-|-------------|---------|
 | `git branch` | 🌿 Lista todas as branches do repositório. |
 | `git branch -a` | 🌍 Exibe todas as branches locais e remotas. |
 | `git branch -d nome_da_branch` | ✂️ Deleta uma branch localmente. |
@@ -23,7 +21,6 @@
 ---
 
 ## 🔹 **Trabalhando com Commits**
-|-------------|---------|
 | `git commit -m "Mensagem do commit"` | 💾 Salva as mudanças localmente com uma mensagem descritiva. |
 | `git commit --amend` | ✍️ Modifica o último commit (útil para corrigir mensagens ou adicionar arquivos). |
 | `git reset --soft HEAD~1` | 🛠️ Desfaz o último commit, mantendo as alterações no stage. |
@@ -33,7 +30,6 @@
 ---
 
 ## 🔹 **Trabalhando com Arquivos**
-|-------------|---------|
 | `git add .` | ➕ Adiciona todas as mudanças feitas ao repositório local. |
 | `git rm --cached nome_do_arquivo` | 🗑️ Remove um arquivo do rastreamento do Git sem deletá-lo do sistema. |
 | `touch .gitignore` | 🚫 Cria um arquivo `.gitignore` para ignorar arquivos desnecessários no repositório. |
@@ -50,14 +46,12 @@
 ---
 
 ## 🔹 **Resolvendo Conflitos e Ferramentas**
-|-------------|---------|
 | `git merge nome_da_branch` | 🔗 Mescla uma branch específica na branch atual. |
 | `git mergetool` | 🛠️ Abre uma ferramenta de merge para resolver conflitos (se configurado). |
 
 ---
 
 ## 🔹 **Verificando o Status e Log**
-|-------------|---------|
 | `git status` | 📢 Mostra o estado atual dos arquivos no repositório. |
 | `git log` | 📜 Exibe o histórico de commits do repositório. |
 | `git log --oneline` | 🔍 Mostra um resumo compacto dos commits. |
@@ -65,7 +59,6 @@
 ---
 
 ## 🔹 **Outros Comandos Úteis**
-|-------------|---------|
 | `git cherry-pick <commit-hash>` | 🍒 Aplica um commit específico de outra branch na branch atual. |
 | `git stash` | 💾 Salva temporariamente mudanças locais sem fazer um commit. |
 | `git stash pop` | 🔄 Restaura as mudanças salvas anteriormente com `git stash`. |

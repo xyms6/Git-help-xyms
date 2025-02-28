@@ -21,6 +21,7 @@
 | `git rm --cached nome_do_arquivo` | 🗑️ Remove um arquivo do rastreamento do Git sem deletá-lo do sistema. |
 | `touch .gitignore` | 🚫 Cria um arquivo `.gitignore` para ignorar arquivos desnecessários no repositório. |
 | `echo "node_modules/" >> .gitignore` | 📂 Adiciona `node_modules` ao `.gitignore`, evitando o upload da pasta para o repositório. |
+| `git remote set-url origin https://github.com/usuario/novo-repo.git` | 💨 Mudar o repositório remoto padrão  |
 | `git fetch` | 🔄 Obtém as últimas atualizações do repositório remoto sem aplicá-las. |
 | `git rebase main` | 🛠️ Aplica as mudanças da branch principal na branch atual de forma linear. |
 | `git stash` | 💾 Salva temporariamente mudanças locais sem fazer um commit. |
